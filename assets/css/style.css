@@ -1,0 +1,45 @@
+header {
+  background-color: black;
+  text-align: center;
+}
+.banner {
+  background-image: url("/assets/images/banner.jpg");
+}
+.banner {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banner h1 p button {
+  border: 50px;
+}
+main {
+  text-align: center;
+  
+}
+.button {
+  background-color: #EE4E2C;
+  color:white;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border:none;
+}
+.notebook-img {
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+footer{
+  text-align: center;
+}
+/*
+.notebook-img {
+  align-items: center;
+  width: 200px;
+  ehight: 200px;
+  border-radius: 50%;
+  object-fit: fill;
+/*
+
