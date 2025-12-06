@@ -14,24 +14,34 @@ header {
 }
 .banner {
   background-image: url("/assets/images/banner.jpg");
+
+  object-fit: cover;
   background-size: 100%;
+  padding: 35px;
   background-repeat: no-repeat;
-  height: 280px;
+}
+.banner h1 {
+  color: #28a1c9;
+  font-size: xx-large;
+  margin: 0px 40px 20px 10px;
+  text-align: center;
+}
+.banner p {
+  margin: 5px 60px 10px 20px;
+  text-align: center;
 }
 
-.banner h1 p button {
-  border: 50px;
-}
 main {
   text-align: center;
 }
 .button {
   background-color: #ee4e2c;
   color: white;
-  width: 150px;
-  height: 40px;
+  width: 120px;
+  height: 30px;
   border-radius: 5px;
   border: none;
+  margin: 10px 50px 20px 20px;
 }
 .notebook-img {
   align-items: center;
@@ -39,6 +49,30 @@ main {
   height: 200px;
   border-radius: 50%;
   object-fit: fill;
+}
+.orange-bck {
+  background-color: #ee280b;
+  padding: 30px;
+  color: white;
+}
+.orange-bck h2 {
+  font-size: xx-large;
+}
+.orange-bck p {
+  margin-top: 30px;
+}
+.mario-rossi {
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+.ceo {
+  margin-top: 5px;
+}
+.pencil-notebook {
+  padding: 60px;
+  margin: 30px;
+  text-align: center;
+  background-position: center;
 }
 footer {
   text-align: center;
