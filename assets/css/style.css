@@ -41,7 +41,7 @@ main {
   height: 30px;
   border-radius: 5px;
   border: none;
-  margin: 10px 50px 20px 20px;
+  margin: 15px 50px 20px 20px;
 }
 .notebook-img {
   align-items: center;
@@ -49,11 +49,19 @@ main {
   height: 200px;
   border-radius: 50%;
   object-fit: fill;
+  margin: 20px 0px 20px 0px;
+}
+.multi-article h4 {
+  color: #28a1c9;
+}
+.multi-article p {
+  margin: 20px 70px 20px 70px;
 }
 .orange-bck {
   background-color: #ee280b;
   padding: 30px;
   color: white;
+  margin: 40px 0px 0px 0px;
 }
 .orange-bck h2 {
   font-size: xx-large;
@@ -68,14 +76,49 @@ main {
 .ceo {
   margin-top: 5px;
 }
+.three-imgs h4 {
+  color: #28a1c9;
+}
+.three-imgs p {
+  margin: 30px 30px 30px 30px;
+}
 .pencil-notebook {
-  padding: 60px;
-  margin: 30px;
   text-align: center;
-  background-position: center;
+  padding: 0px;
+  margin: 40px 30px 30px 30px;
+  max-width: -webkit-fill-available;
+}
+.close-notebook {
+  text-align: center;
+  padding: 0px;
+  margin: 30px 30px 30px 30px;
+  max-width: -webkit-fill-available;
+}
+.people-notebbok {
+  text-align: center;
+  padding: 0px;
+  margin: 30px 30px 30px 30px;
+  max-width: -webkit-fill-available;
 }
 footer {
   text-align: center;
+  background-color: #28a3c9;
+  margin-top: 70px;
+  padding: 40px;
+  color: white;
+}
+.ul-footer {
+  margin: 20px 20px 20px 20px;
+  list-style-type: none;
+}
+.footer li {
+  margin: 5px 0px 8px 0px;
+}
+.footer p {
+  margin: 30px 30px 30px 30px;
+}
+.footer hr {
+  margin: 10px 70px 10px 70px;
 }
 /*
 .notebook-img {
